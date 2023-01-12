@@ -1,0 +1,39 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "Beautiful Day",
+      "comment": "Today is a beautiful day at Pune",
+      "likes": 2,
+      "dislikes": 0
+    },
+    {
+      "id": 2,
+      "title": "Exams are upon us !",
+      "comment": "Government has just annouced exam date for IIT-JEE. Hope you all are studying",
+      "likes": 0,
+      "dislikes": 1
+    },
+    {
+      "id": 3,
+      "title": "Recession !",
+      "comment": "Government has just annouced exam date for IIT-JEE. Hope you all are studying",
+      "likes": 0,
+      "dislikes": 0
+    },
+    {
+      "id": 4,
+      "title": "Test 4",
+      "comment": "Government has just annouced exam date for IIT-JEE. Hope you all are studying",
+      "likes": 3,
+      "dislikes": 3
+    },
+    {
+      "id": 5,
+      "title": "Test 5! edited 4 times",
+      "comment": "Thrice Government has just annouced exam date for IIT-JEE. Hope you all are studying ejrbg",
+      "likes": 4,
+      "dislikes": 8
+    }
+  ]
+}
