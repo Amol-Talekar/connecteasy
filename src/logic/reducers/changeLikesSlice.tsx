@@ -68,12 +68,10 @@ const changeLikesSlice = createSlice({
       payload
     ) => {
       state.loading = false;
-      const {
-        arg: { id },
-      } = payload;
-      if (id) {
+
+      if (payload.id) {
         state.postData = state.postData.map((item) =>
-          item.id === id ? payload : item
+          item.id === payload.id ? payload : item
         );
       }
     },

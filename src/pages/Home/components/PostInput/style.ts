@@ -21,10 +21,13 @@ export const PostForm = styled.div`
   gap: 8px;
   padding: 20px;
   width: 100%;
-  height: 25vh;
-
+  border-radius: 8px;
   box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em,
     rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+
+  @media (max-width: 720px) {
+    width: 98%;
+  }
 `;
 
 export const TitleInput = styled.input`
@@ -42,9 +45,9 @@ export const CommentArea = styled.textarea`
   border-radius: 4px;
   padding: 4px;
   height: 10vh;
-
+  outline: 1px solid rgba(219, 219, 219);
   :focus {
-    outline: 1px solid gray;
+    outline: 1px solid black;
   }
 `;
 

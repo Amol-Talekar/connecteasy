@@ -1,6 +1,4 @@
-import React, { useEffect, useState } from "react";
-import { Formik } from "formik";
-import * as Yup from "yup";
+import { useState } from "react";
 import { v4 as uuidv4 } from "uuid";
 import {
   CommentArea,
@@ -10,9 +8,9 @@ import {
   TitleInput,
 } from "./style";
 import { useDispatch } from "react-redux";
-import { InputGroup } from "../../InputGroup/InputGroup";
-import { makePost } from "../../../logic/reducers/makePostSlice";
-import { getAllPosts } from "../../../logic/reducers/getAllPostsSlice";
+
+import { makePost } from "../../../../logic/reducers/makePostSlice";
+import { getAllPosts } from "../../../../logic/reducers/getAllPostsSlice";
 
 interface Isinglepost {
   id: string;

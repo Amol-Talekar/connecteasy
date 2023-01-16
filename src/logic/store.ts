@@ -8,7 +8,6 @@ import deletePostSlice from "./reducers/deletePostSlice";
 import changeLikesSlice from "./reducers/changeLikesSlice";
 import editPostSlice from "./reducers/editPostSlice";
 
-const middleware = composeWithDevTools(applyMiddleware(thunkMiddleware));
 export const store = configureStore({
   reducer: {
     allPosts: getAllPostsSlice,
@@ -23,3 +22,5 @@ export const store = configureStore({
 export type RootState = ReturnType<typeof store.getState>;
 // Inferred type: {posts: PostsState, comments: CommentsState, users: UsersState}
 export type AppDispatch = typeof store.dispatch;
+
+//const middleware = composeWithDevTools(applyMiddleware(thunkMiddleware));

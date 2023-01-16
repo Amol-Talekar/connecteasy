@@ -7,8 +7,8 @@ export const ModalWrapper = styled.div`
   right: 0;
   bottom: 0;
   z-index: 11;
-  background: rgba(32, 35, 40, 0.3);
-  backdrop-filter: blur(2px);
+  background: rgba(32, 35, 40, 0.1);
+  backdrop-filter: blur(1px);
   display: flex;
   justify-content: center;
   align-items: center;

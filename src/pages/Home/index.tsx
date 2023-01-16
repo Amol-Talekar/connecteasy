@@ -1,8 +1,14 @@
 import React from "react";
-import { Sidebar } from "./Sidebar";
-import { PostInput } from "./PostInput";
-import { PostsGroup } from "./PostsGroup";
-import { FirstSectionBox, HomeContainer, SecondSectionBox } from "./style";
+import { Sidebar } from "./components/Sidebar";
+import { PostInput } from "./components/PostInput";
+import { PostsGroup } from "./components/PostsGroup";
+import {
+  FirstSectionBox,
+  HomeContainer,
+  SecondSectionBox,
+  ThirdSectionBox,
+} from "./style";
+import { FeedComponent } from "./components/FeedComponent";
 
 export const Home = () => {
   return (
@@ -15,6 +21,10 @@ export const Home = () => {
         <PostInput />
         <PostsGroup />
       </SecondSectionBox>
+
+      <ThirdSectionBox>
+        <FeedComponent />
+      </ThirdSectionBox>
     </HomeContainer>
   );
 };

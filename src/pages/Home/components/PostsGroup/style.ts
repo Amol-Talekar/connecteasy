@@ -4,7 +4,6 @@ export const PostGroupContainer = styled.div`
   width: 100%;
 
   padding: 8px;
-  height: 200vh;
 `;
 
 export const ThePost = styled.div`
@@ -42,7 +41,7 @@ export const LikeBox = styled.div`
   padding: 4px;
   justify-content: center;
   align-items: center;
-
+  min-width: 64px;
   span {
     font-size: 22px;
   }
@@ -72,6 +71,7 @@ export const DisLikeBox = styled.div`
   align-items: center;
   justify-content: center;
 
+  min-width: 64px;
   span {
     font-size: 22px;
   }
@@ -123,4 +123,11 @@ export const DeleteButton = styled.button`
   span {
     color: ${(props) => props.theme.red};
   }
+`;
+
+export const AdvanceOptionBox = styled.div`
+  border: 1px solid black;
+  padding: 12px;
+  height: 15vh;
+  width: 100%;
 `;

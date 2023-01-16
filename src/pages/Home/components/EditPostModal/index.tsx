@@ -10,10 +10,10 @@ import {
   ModalContent,
   ModalWrapper,
 } from "./style";
-import close from "../../../assets/images/close.png";
-import { editPost } from "../../../logic/reducers/editPostSlice";
+import close from "../../../../assets/images/close.png";
+import { editPost } from "../../../../logic/reducers/editPostSlice";
 import { useDispatch } from "react-redux";
-import { getAllPosts } from "../../../logic/reducers/getAllPostsSlice";
+import { getAllPosts } from "../../../../logic/reducers/getAllPostsSlice";
 
 export const EditPostModal = (props: any) => {
   const { setOpenEditModal, openEditModal, singlePost } = props;

@@ -46,6 +46,7 @@ const getAllPostsSlice = createSlice({
   name: "getAllPosts",
   initialState,
   reducers: {},
+
   extraReducers: {
     //@ts-ignore
     [getAllPosts.pending]: (state, action) => {
