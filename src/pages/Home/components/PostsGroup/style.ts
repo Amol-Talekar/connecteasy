@@ -126,8 +126,41 @@ export const DeleteButton = styled.button`
 `;
 
 export const AdvanceOptionBox = styled.div`
-  border: 1px solid black;
+  // border: 1px solid black;
   padding: 12px;
-  height: 15vh;
+  height: 8vh;
   width: 100%;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+
+  input {
+    height: 24px;
+    border-radius: 4px;
+    outline: none;
+    width: 100%;
+    padding: 2px 8px;
+    border: 0.5px solid gray;
+  }
+
+  button {
+    padding: 4px 8px;
+    border-radius: 8px;
+    cursor: pointer;
+    height: 24px;
+    border: none;
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+    justify-content: center;
+    align-items: center;
+
+    img {
+      height: 12px;
+    }
+    :hover {
+      background-color: black;
+      color: white;
+    }
+  }
 `;
